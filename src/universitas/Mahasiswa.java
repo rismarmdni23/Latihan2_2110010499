@@ -1,14 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package universitas;
 
-/**
- *
- * @author User
- */
 public class Mahasiswa {
+    String nama;
+    String npm;
+    String prodi;
     
+    public String getNama(){
+       return nama;  
+   }
+    public String getNpm(){
+       return npm;  
+   }
+    public String getProdi(){
+       return prodi;  
+   }
+    
+    public void setnama (String nama){
+       nama = nama;
+   }
+    
+    public void setnpm (String npm){
+       npm = npm;
+    }
+    
+    public void setrodi (String prodi){
+       prodi = prodi;
+    }
 }
